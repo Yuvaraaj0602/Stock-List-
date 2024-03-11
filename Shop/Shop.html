@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="">
+            <label for="item">Stock Item:</label>
+            <input type="text" id="item">
+            <label for="img">Image :</label>
+            <input type="file" id="img" value="enter product image">
+            <label for="qty">Quantity:</label>
+            <input type="text" id="qty">
+            <label for="rate">Rate:</label>
+            <input type="text" id="rate">
+            <label for="amount">Amount:</label>
+            <input type="text" id="amount">
+            <input type="button" id="print" value="Print Invoice">
+        </form>
+    </section>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Stock Item</th>
+                    <th>Image</th>
+                    <th>Qty</th>
+                    <th>Rate</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody id="tvalue">
+                
+            </tbody>
+        </table>
+    </section>
+    <script src="Shop.js"></script>
+</body>
+</html>
